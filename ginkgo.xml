@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project name="wrrrah/lineage_android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-18.1" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" revision="lineage-18.1-caf-sm8150" />
+  <project name="wrrrah/hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="github" revision="r-caf-sm8150" />
+
+  <project name="wrrrah/device_xiaomi_trinket-common" path="device/xiaomi/trinket-common" remote="github" revision="lineage-18.1" />
+  <project name="wrrrah/kernel_msm-4.14" path="kernel/msm-4.14" remote="github" revision="lineage-18.1" />
+  <project name="wrrrah/device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="github" revision="lineage-18.1" />
+  <project name="wrrrah/vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="github" revision="lineage-18.1" />
+  <project name="wrrrah/vendor_xiaomi_trinket-common" path="vendor/xiaomi/trinket-common" remote="github" revision="r" />
+
+  <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-12.0" remote="github" revision="master" clone-depth="1" />
+</manifest>
