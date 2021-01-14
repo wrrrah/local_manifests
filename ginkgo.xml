@@ -2,6 +2,8 @@
 <manifest>
   <remove-project name="LineageOS/android_frameworks_base" />
   <project name="wrrrah/lineage_android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-18.1" />
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+  <project name="wrrrah/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" remote="github" revision="lineage-18.1" />
   <remove-project name="LineageOS/android_hardware_qcom_display" revision="lineage-18.1-caf-sm8150" />
   <project name="wrrrah/hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="github" revision="r-caf-sm8150" />
 
